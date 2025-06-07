@@ -90,4 +90,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contributing
 
-Feel free to open issues or submit pull requests!
+Feel free to open issues
