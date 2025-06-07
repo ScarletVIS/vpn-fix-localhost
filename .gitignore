@@ -1,0 +1,21 @@
+# conf and env
+.env
+.bypass-vpn.conf
+
+# Log Files
+*.log
+
+# IDE / Editor
+.idea/
+.vscode/
+.fleet/
+.nova/
+.zed/
+
+# Docker
+docker/*.log
+docker/*.pid
+
+# OS / General
+.DS_Store
+Thumbs.db

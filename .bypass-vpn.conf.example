@@ -1,0 +1,20 @@
+# Configuration file for bypass-vpn.sh
+# Place this in $HOME/.bypass-vpn.conf
+
+# Routing table name
+TABLE_NAME="local_bypass"
+
+# Routing table ID
+TABLE_ID="100"
+
+# Default priority for rules
+DEFAULT_PRIORITY=1000
+
+# Docker network driver to scan
+DOCKER_NETWORK_DRIVER="bridge"
+
+# Additional subnets to bypass VPN
+EXTRA_SUBNETS=("100.64.0.0/10")
+
+# Language (en or ru)
+LANGUAGE="en"
